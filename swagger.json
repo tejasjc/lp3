@@ -1,0 +1,32 @@
+{
+  "paths": {
+    "/engine-rest/decision-definition/count": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "x-oad-type": "response"
+          }
+        }
+      },
+      "x-oad-type": "operation"
+    }
+  },
+  "info": {
+    "title": "Camunda test api",
+    "version": "1",
+    "description": "Camunda test api"
+  },
+  "host": "10.4.1.5:8080",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "swagger": "2.0"
+}
